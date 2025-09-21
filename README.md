@@ -62,8 +62,3 @@ Notes
 - The silence detector uses RMS over short blocks (default 0.1s) to determine silence. Adjust `--silence-threshold` and `--silence-duration` for your environment.
 - If you prefer a single output format, use the `--outfile` parameter; the script still writes a second `recording1.wav` to preserve previous behavior.
 - On Windows you may need to select a device using `--device <id>`; use `--list-devices` to see available devices.
-
-If you want, I can:
-- Add tests for the CLI parsing and simple smoke tests (no audio hardware required).
-- Make the second output optional or choose writer by extension.
-- Add pause/resume keyboard controls or a short GUI.
